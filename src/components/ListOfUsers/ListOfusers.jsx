@@ -5,6 +5,7 @@ import axios from 'axios';
 // const fetchUsers = async () => {
 //     const res = await fetch("https://jsonplaceholder.typicode.com/users");
 //     const data = res.json();
+//     console.log(data);
 //     return data;
 // };
 
