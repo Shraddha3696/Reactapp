@@ -41,7 +41,7 @@ function ListOfUsers(){
             setUsers(myUsers);
         })
     }
-   getUsers();
+     const { data, status } = useQuery("users", getUsers);
     return (
                 <div>
                     {user.map((user,index) => (
