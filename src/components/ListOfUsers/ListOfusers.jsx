@@ -1,6 +1,7 @@
 import React, { useState , useEffect } from 'react';
 import axios from 'axios';
 
+//================using useQuery=====================================
 // const fetchUsers = async () => {
 //     const res = await fetch("https://jsonplaceholder.typicode.com/users");
 //     const data = res.json();
@@ -19,6 +20,8 @@ import axios from 'axios';
 //         </div>
 //     )
 // }
+
+//=======================using axios=================================
 function ListOfUsers(){
     const [user, setUsers] = useState([]);
 
