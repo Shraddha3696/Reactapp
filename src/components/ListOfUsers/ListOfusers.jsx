@@ -12,13 +12,20 @@ import axios from 'axios';
 // function ListOfUsers() {
 //     const { data, status } = useQuery("users", fetchUsers);
 
-//     return (
-//         <div>
-//             {data.map((user) => (
-//                 <p key={user.id}>{user.name}</p>
-//             ))}
-//         </div>
-//     )
+//      return (
+//        <div>
+          
+//          {status === "success" && 
+//       (
+//            <div>
+//              {data.map((user,index) => (
+//                <p key={index}>{user.name}</p>
+//              ))}
+//              <p> status is :{status}</p>
+//            </div>
+//         )}
+//       </div>
+//      );
 // }
 
 //=======================using axios=================================
