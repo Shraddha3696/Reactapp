@@ -41,7 +41,7 @@ function ListOfUsers(){
             setUsers(myUsers);
         })
     }
-    useEffect(()=>getUsers(),[]);
+   getUsers();
     return (
                 <div>
                     {user.map((user,index) => (
