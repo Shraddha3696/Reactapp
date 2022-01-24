@@ -1,5 +1,6 @@
 import React, { useState , useEffect } from 'react';
 import axios from 'axios';
+import { useQuery,QueryClient, QueryClientProvider } from 'react-query';
 
 //================using useQuery=====================================
 // const fetchUsers = async () => {
